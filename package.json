@@ -1,0 +1,32 @@
+{
+  "name": "laravel-testing-mix",
+  "version": "1.0.0",
+  "description": "Assets for searching Boris statements",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "watch:prod": "mix watch --production",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "mix --production",
+    "serve": "http-server -c-1 -p 8081"
+
+  },
+  "author": "Gordon Anderson",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^7.17.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^4.0.2",
+    "http-server": "^0.12.3",
+    "laravel-mix": "^6.0.10",
+    "popper.js": "^1.16.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.10",
+    "postcss": "^8.2.4"
+  }
+}
