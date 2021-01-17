@@ -11,22 +11,25 @@
     "hot": "mix watch --hot",
     "prod": "mix --production",
     "serve": "http-server -c-1 -p 8081"
-
   },
   "author": "Gordon Anderson",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^7.17.0",
-    "eslint-friendly-formatter": "^4.0.1",
-    "eslint-loader": "^4.0.2",
-    "http-server": "^0.12.3",
-    "laravel-mix": "^6.0.10",
+    "lodash": "^4.17.20",
     "popper.js": "^1.16.1",
+    "postcss-normalize": "^9.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.12.10",
-    "postcss": "^8.2.4"
+    "postcss": "^8.2.4",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1",
+    "eslint": "^7.17.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^4.0.2",
+    "http-server": "^0.12.3",
+    "laravel-mix": "^6.0.10"
   }
 }
