@@ -21,4 +21,5 @@ mix
         },
     })
     .js('src/js/app.js', 'dist/js').react().sourceMaps()
-    .extract(['react', 'react-dom'])
+    .extract()
+    //.extract(['react', 'react-dom'])
